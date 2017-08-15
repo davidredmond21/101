@@ -1,0 +1,22 @@
+Package: climr
+Type: Package
+Title: Analyse and plot the latest global and hemispheric climate data
+Version: 0.1.0
+Authors@R: person("Andrew","Parnell", email = "andrew.parnell@ucd.ie", role =
+    c("aut", "cre"))
+Description: Downloads, analyses and plots the latest climate data from NASA at
+    monthly, quarterly, and yearly time scales. Performs basic analysis on said data
+    and creates nice plots.
+License: GPL (>= 2)
+LazyData: TRUE
+Imports:
+    dplyr,
+    tidyr,
+    readr,
+    magrittr,
+    stats,
+    ggplot2,
+    tibble,
+    viridis
+RoxygenNote: 5.0.1
+Suggests: testthat
